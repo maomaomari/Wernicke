@@ -16,6 +16,10 @@
 */
 
 #include <stdio.h>
+#include "interpreter.h"
+
+Fita fitaMain = {};
+
 
 int main(int argc, char** argv){
 	FILE *src;
