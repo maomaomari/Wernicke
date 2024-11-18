@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -std=c2x
+CFLAGS = -std=c2x -ggdb
 
 SRC = $(wildcard *.c)
 OBJ = ${SRC:.c=.o}

@@ -11,7 +11,7 @@ typedef struct fita{
 
 Fita *criaFita();
 
-void parse(void);
+Fita *parser(Fita*, char*);
 
 
 
